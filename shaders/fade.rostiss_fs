@@ -1,0 +1,13 @@
+#version 330 core
+
+layout (location = 0) out vec4 color;
+
+uniform float time;
+
+void main()
+{
+	if (time > 1)
+		discard;
+	//color = vec4(0.46, 0.81, 0.85, 1 - time);
+	color = vec4(1, 1, 1, 1 - time);
+}

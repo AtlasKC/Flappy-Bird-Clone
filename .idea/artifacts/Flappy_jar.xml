@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Flappy:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Flappy_jar</output-path>
+    <root id="archive" name="Flappy.jar">
+      <element id="module-output" name="Flappy" />
+      <element id="library" level="project" name="lwjgl" />
+      <element id="directory" name="natives">
+        <element id="dir-copy" path="$PROJECT_DIR$/natives" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/natives" />
+    </root>
+  </artifact>
+</component>
